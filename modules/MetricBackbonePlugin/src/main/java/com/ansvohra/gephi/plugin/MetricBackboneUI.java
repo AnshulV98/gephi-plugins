@@ -23,6 +23,10 @@ public class MetricBackboneUI implements StatisticsUI{
     }
 
     public void unsetup() {
+        if(MetricPanel!=null){
+            myStat.setComputeMetric(MetricPanel.computeMetric());
+            myStat.setComputeUltraMetric(MetricPanel.computeUltraMetric());
+        }
         MetricPanel = null;
     }
 

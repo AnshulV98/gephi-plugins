@@ -11,7 +11,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="gephi-plugins" target="1.5" />
-      <module name="ultrametricbackboneplugin" target="1.5" />
+      <module name="ultrametricbackboneplugin" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>
